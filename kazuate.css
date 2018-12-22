@@ -1,0 +1,114 @@
+@charset "utf=8";
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    max-height: 100%;
+}
+body {
+    font-family: sans-serif;
+}
+
+#wrap {
+    width: 300px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 16px;
+}
+
+#kazu-input-10,
+#kazu-input-01 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: solid 1px #555;
+    font-size: 40px;
+    text-align: center;
+}
+
+#kazu-10,
+#kazu-01 {
+    width: 55px;
+    float: left;
+    margin: 0 5px;
+}
+#kazu-up-10,
+#kazu-up-01,
+#kazu-down-10,
+#kazu-down-01 {
+    width: 45px;
+    height: 30px;
+    margin: 5px;
+}
+#kazu-up-10,
+#kazu-up-01 {
+    margin: 5px 5px 0 5px;
+}
+#kazu-down-10,
+#kazu-down-01 {
+    margin: 0 5px 5px 5px;
+}
+
+#userNum {
+    width: 60px;
+    height: 45px;
+    margin: 10px 0 25px 0;
+}
+#replay {
+    width: 150px;
+    height: 45px;
+}
+#image-area {
+    height: 250px;
+}
+#image-area {
+    width: 50%;
+    float: left;
+}
+#message-area {
+    width: 50%;
+    float: right;
+    /* êÅÇ´èoÇµ */
+    position: relative;
+    border: solid 1px gray;
+    padding: 10px 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#message-area:before,
+#message-area:after {
+	position: absolute;
+	bottom: 6px;
+	content: '';
+}
+#message-area:before {
+	left: -20px;
+	border: solid 10px transparent;
+	box-sizing: border-box;
+	border-right-color: #757575;
+}
+#message-area:after {
+	left: -19px;
+	border: solid 10px transparent;
+	box-sizing: border-box;
+	border-right-color: #fff;
+}
+/* Ç±Ç±Ç‹Ç≈ÅAêÅÇ´èoÇµ */
+#kazu-show-area {
+    width: 50%;
+    float: left;
+}
+#play-button-area {
+    width: 50%;
+    float: right;
+}
+
+
+
